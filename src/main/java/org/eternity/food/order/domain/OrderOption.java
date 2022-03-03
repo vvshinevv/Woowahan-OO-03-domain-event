@@ -23,7 +23,7 @@ public class OrderOption {
         this.price = price;
     }
 
-    OrderOption() {
+    protected OrderOption() {
     }
 
     public Option convertToOption() {
